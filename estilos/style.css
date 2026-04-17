@@ -33,14 +33,32 @@ div#img{
 }
 
 form > p {
+    display: flex;
+    align-items: center;
     background-color: purple;
     padding: 10px;
-    margin: 10px;
+    margin: 8px;
     border-radius: 10px;
 }
 
 input{
     background-color: aquamarine;
-    padding: 3px;
+    padding: px;
     border-radius: 10px;
+}
+
+section > div{
+    padding: ;
+}
+
+section > div > h1{
+    padding: 20px;
+    font-weight: bolder;
+}
+
+section > div > p {
+    text-align: justify;
+    font-size: 1em;
+    padding: 10px;
+    
 }
