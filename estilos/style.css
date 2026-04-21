@@ -17,48 +17,97 @@ body {
 
 main {
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 275px;
+    height: 600px;
     border-radius: 20px;
     position: relative;
     transform: translate(-50%, -50%);
-    
+}
+
+p#texto{
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 div#img{
     border-radius:20px 20px 0px 0px;
-    width:250px;
-    height:200px;
+    width:275px;
+    height:250px;
     background-color: black;
 }
 
-form > p {
+div#cont{
+    width:275px;
+    height:400px;
+}
+
+.p1 {
     display: flex;
     align-items: center;
     background-color: purple;
-    padding: 10px;
+    padding: 5px;
     margin: 8px;
     border-radius: 10px;
+    width: 250px;
+    height: 40px;
 }
 
 input{
+    height: 40px;
+    width: 80%;
     background-color: aquamarine;
-    padding: px;
+    padding: 0px;
+    margin: 0px;
     border-radius: 10px;
 }
 
-section > div{
-    padding: ;
+input:focus{
+    background-color: white;
 }
 
+
 section > div > h1{
-    padding: 20px;
-    font-weight: bolder;
+    padding: 10px;
+    font-weight: bold;
+    
 }
 
 section > div > p {
     text-align: justify;
-    font-size: 1em;
+    font-size: 2em;
     padding: 10px;
-    
+}
+
+.p2{
+    padding: 5px;
+    text-align: center;
+}
+
+input#entrar{
+    background-color: rgb(100, 192, 161);
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+input#entrar:hover{
+    background-color: rgb(48, 91, 76);
+}
+
+
+input#es{
+    border: rgb(100, 192, 161) solid 1px ;
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+input#es:hover{
+    background-color: rgb(100, 192, 161);
 }
