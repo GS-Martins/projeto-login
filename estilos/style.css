@@ -15,7 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+#container {
     background-color: white;
     width: 275px;
     height: 600px;
@@ -29,14 +29,15 @@ p#texto{
     text-align: justify;
 }
 
-div#img{
+#img{
     border-radius:20px 20px 0px 0px;
     width:275px;
     height:250px;
     background-color: black;
+    background-image: url(/imagens/pexels-romain-de-tirtoff-246990934-25427755.jpg);
 }
 
-div#cont{
+#cont{
     width:275px;
     height:400px;
 }

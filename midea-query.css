@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) and (max-width: 1300px){
+    main{
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        
+    }
+}
+
+div#img{
+    border-radius:20px 0px 0px 20px;
+    width:30vw;
+    height:40vh;
+    background-color: black;
+    background-image: url(/imagens/pexels-romain-de-tirtoff-246990934-25427755.jpg);
+    
+}
+
+div#cont{
+    width:70vw;
+    height:40vh;
+    background-color: ;
+    justify-content: right;
+}
